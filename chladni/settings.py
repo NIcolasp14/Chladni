@@ -37,7 +37,7 @@ SECRET_KEY = os.getenv('SECRET_KEY', 'your-fallback-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.onrender.com', 'your-app-name.onrender.com', 'chladni.herokuapp.com', '.herokuapp.com', '0.0.0.0', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app', '.onrender.com', 'your-app-name.onrender.com', 'chladni.herokuapp.com', '.herokuapp.com', '0.0.0.0', 'localhost', '127.0.0.1']
 
 # Application definition
 INSTALLED_APPS = [
